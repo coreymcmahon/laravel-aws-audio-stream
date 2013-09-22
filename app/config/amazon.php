@@ -28,4 +28,7 @@ return [
 
 	// Bucket to save files into
 	'defaultbucket' => 'insert-your-bucket-name-here',
+
+	// Streaming distribution server, eg: xxxxxxxxxxxxxx.cloudfront.net
+	'streamingserver' => 'insert-your-cloudfrount-server-here',
 ];

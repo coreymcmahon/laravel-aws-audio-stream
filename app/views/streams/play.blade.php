@@ -9,7 +9,7 @@
 
 <!-- http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/TutorialStreamingJWPlayer.html -->
 jwplayer('player').setup({
-    file: 'rtmp://s2y5j7oj67q2fe.cloudfront.net/cfx/st/{{ $stream->name }}',
+    file: 'rtmp://{{ Config::get('amazon.streamingserver') }}/cfx/st/{{ $stream->name }}',
     height: '30'
 });
 
