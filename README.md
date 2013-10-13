@@ -29,9 +29,22 @@ Update ```app/config/database.php``` with your database settings.
 ```
 $ composer install
 $ ./artisan migrate
-$ ./artisan serve
 ```
 
+Create a user in the database.
+
+```
+$ ./artisan create:user someuser@somedomain.com
+Please enter a password
+Please confirm the password
+User successfully added.
+```
+
+Start the test web server.
+
+```
+$ ./artisan serve
+```
 
 Notes
 ========================
